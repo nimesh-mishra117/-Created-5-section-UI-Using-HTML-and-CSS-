@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 90%;
+            margin: 50px auto 0;
+        }
+
+        .container .block {
+            margin-bottom: 50px;
+            display: flex;
+        }
+
+        .container .block .image {
+            width: 500px;
+
+        }
+
+        .container .block .image img:hover {
+            box-shadow: -5px -5px 50px gray, 10px 10px 30px black;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+
+        }
+
+        .container .block .image img {
+            width: 100%;
+            height: 300px;
+            border-radius: 5px;
+        }
+
+        .container .block .content {
+            width: 900px;
+            margin-left: 50px;
+        }
+
+        .container .block .content button:hover {
+            cursor: pointer;
+            border-radius: 30px;
+            border: 2px solid white;
+            box-shadow: -5px -5px 50px gray, 10px 10px 30px black;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            display: flex;
+        }
+
+        footer ul {
+            list-style-type: none;
+            margin-left: 150px;
+        }
+
+        footer li {
+            margin-top: 20px;
+        }
+
+        footer li a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="block">
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/e3/f8/cf/e3f8cfbee77dca56124a5783a8228047.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Our Mission</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cum soluta nulla tempora
+                    temporibus dolorum illum quisquam beatae similique esse aut officiis corporis nostrum ut quod amet
+                    ipsum, nisi mollitia reiciendis adipisci? A iste deleniti impedit facilis molestias quos mollitia
+                    reprehenderit illo eveniet, tempore omnis laudantium eaque repudiandae odio cupiditate.
+                    <button
+                        style="margin-top: 20px; width: 120px; padding: 10px; background-color: black; color: white; border-radius: 10px;">Learn
+                        More</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="content" style="margin-right: 40px;">
+                <h1>Why Choose Us</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cum soluta nulla tempora
+                    temporibus dolorum illum quisquam beatae similique esse aut officiis corporis nostrum ut quod amet
+                    ipsum, nisi mollitia reiciendis adipisci? A iste deleniti impedit facilis molestias quos mollitia
+                    reprehenderit illo eveniet, tempore omnis laudantium eaque repudiandae odio cupiditate.
+                    <button
+                        style="margin-top: 20px; width: 120px; padding: 10px; background-color: black; color: white; border-radius: 10px;">Learn
+                        More</button>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/9b/39/98/9b3998fc0add670bcfa3aeb7532f9cf6.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="block">
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/24/30/f0/2430f0496b5753ce53e420bd9a3d0559.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Our Vison</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cum soluta nulla tempora
+                    temporibus dolorum illum quisquam beatae similique esse aut officiis corporis nostrum ut quod amet
+                    ipsum, nisi mollitia reiciendis adipisci? A iste deleniti impedit facilis molestias quos mollitia
+                    reprehenderit illo eveniet, tempore omnis laudantium eaque repudiandae odio cupiditate.
+                    <button
+                        style="margin-top: 20px; width: 120px; padding: 10px; background-color: black; color: white; border-radius: 10px;">Learn
+                        More</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <h3>Company</h3>
+            <hr>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+
+
+        </ul>
+        <ul>
+            <h3>Support</h3>
+            <hr>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Support</a></li>
+
+
+        </ul>
+        <ul>
+            <h3>Services</h3>
+            <hr>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Marketing</a></li>
+        </ul>
+        <ul>
+            <h3>Legal</h3>
+            <hr>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+        <ul>
+            <h3>Follow Us</h3>
+            <hr>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkedin</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
